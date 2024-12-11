@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fattail"
+version = "0.1.0"
+description = ""
+authors = ["Jeremy Powell <jeremy.wayne.powell@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "^2.2.0"
+matplotlib = "^3.9.3"
+jupyterlab = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
